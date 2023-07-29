@@ -1,4 +1,4 @@
-Week 1 Assignment: Housing Prices¶
+**Week 1 Assignment: Housing Prices**
 In this exercise you'll try to build a neural network that predicts the price of a house according to a simple formula.
 
 Imagine that house pricing is as easy as:
