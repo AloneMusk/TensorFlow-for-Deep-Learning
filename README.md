@@ -17,3 +17,16 @@ In the course you learned how to do classification using Fashion MNIST, a data s
 Write an MNIST classifier that trains to 99% accuracy and stops once this threshold is achieved. In the lecture you saw how this was done for the loss but here you will be using accuracy instead.
 
 
+# Week 3: Improve MNIST with Convolutions
+In the videos you looked at how you would improve Fashion MNIST using Convolutions. For this exercise see if you can improve MNIST to 99.5% accuracy or more by adding only a single convolutional layer and a single MaxPooling 2D layer to the model from the assignment of the previous week.
+
+You should stop training once the accuracy goes above this amount. It should happen in less than 10 epochs, so it's ok to hard code the number of epochs for training, but your training must end once it hits the above metric. If it doesn't, then you'll need to redesign your callback.
+
+When 99.5% accuracy has been hit, you should print out the string "Reached 99.5% accuracy so cancelling training!"
+
+# Week 4: Handling Complex Images - Happy or Sad Dataset
+In this assignment you will be using the happy or sad dataset, which contains 80 images of emoji-like faces, 40 happy and 40 sad.
+
+Create a convolutional neural network that trains to 99.9% accuracy on these images, which cancels training upon hitting this training accuracy threshold.
+
+
